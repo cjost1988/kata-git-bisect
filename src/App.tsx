@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <div className="ColorMatrix">
-        {colorMatrix.flat(1).map((color: ColorEnum) => <div className={color}>&nbsp;</div>)}
+        {colorMatrix.flat().map((color: ColorEnum) => <div className={color}>&nbsp;</div>)}
       </div>
     </div>
   );
