@@ -1,0 +1,18 @@
+.App {
+  height: 100%;
+}
+
+.ColorMatrix {
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
